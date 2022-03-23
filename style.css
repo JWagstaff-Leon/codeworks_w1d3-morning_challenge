@@ -1,0 +1,75 @@
+body 
+{
+    background-color: rgb(40,40,40);
+    margin: 0px;
+}
+
+div
+{
+    background-color: gray;
+}
+
+.light-top
+{
+    width: 15vh;
+    height: 20vh;
+}
+
+.light-body
+{
+    width: 30vh;
+    border-radius: 10%;
+}
+
+.light-container
+{
+    border-radius: 50%;
+    border: 0.5vh rgba(0,0,0,.65) solid;
+    margin: 2vh 0.5vw;
+    width: 20vh;
+    height: 20vh;
+}
+
+.light
+{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+
+    transition: all 0.15s ease-out;
+}
+
+.light:hover
+{
+    filter: blur(1.5vh)
+}
+
+.red-light
+{
+    background-color: red;
+}
+
+.yellow-light
+{
+    background-color: yellow;
+}
+
+.green-light
+{
+    background-color: lime;
+}
+
+.dflex
+{
+    display: flex;
+}
+
+.justify-content-center
+{
+    align-items: center;
+}
+
+.column
+{
+    flex-direction: column;
+}
